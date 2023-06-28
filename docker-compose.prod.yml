@@ -1,0 +1,8 @@
+  version: "3.8"
+  services:
+    app:
+      container_name: reactapp-prod
+      image: reactapp_prod
+      ports:
+        - 80:80
+      tty: true
