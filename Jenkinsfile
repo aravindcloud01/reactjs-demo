@@ -14,9 +14,7 @@ pipeline{
                 branch 'master'
             }
             steps {
-                withCredentials
-                sh 'docker login'
-                sh 'docker push'
+                echo "Docker push"
 
             }
         }
@@ -42,9 +40,7 @@ pipeline{
                 branch 'dev'
             }
             steps {
-                withCredentials
-                sh 'docker login'
-                sh 'docker push'
+                echo "Docker push"
 
             }
         }
