@@ -2,7 +2,7 @@
   services:
     app:
       container_name: reactapp-prod
-      image: reactapp_prod
+      image: aravindcloud01/prod:reactapp_prod
       ports:
         - 80:80
       tty: true
